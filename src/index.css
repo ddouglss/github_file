@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: #fff;
+  font-style: normal;
+}
+
+body{
+  background-color: #131313;
+  padding:2rem;
+}
+ p{
+   text-align: center;
+ }
+ a{
+   text-decoration: none;
+ }
