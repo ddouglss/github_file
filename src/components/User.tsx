@@ -32,7 +32,10 @@ const User = ({
                     <p className={classes.number}>{following}</p>
                 </div>
             </div>
-            <Link to={`/${login}/repos`}>Ver melhores projetos</Link>
+            <Link to={`/${login}/repos`} className={classes.button}>
+                Ver melhores projetos
+            </Link>
+
         </div>
     );
 };
