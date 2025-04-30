@@ -16,7 +16,8 @@ const User = ({
             <img src={avatar_url} alt={login}/>
             <h2>{login}</h2>
             {location && (
-                <p><MdLocationPin/>
+                <p>
+                    <MdLocationPin />
                     <span>{location}</span>
                 </p>
             )}
